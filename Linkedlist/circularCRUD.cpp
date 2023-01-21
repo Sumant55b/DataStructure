@@ -9,8 +9,8 @@ public:
 
     //Constructor 
     Node(int value){
-        data = value;
-        next = NULL;    
+        this->data = value;
+        this->next = NULL;    
     }
     
     //Destructor
