@@ -9,13 +9,13 @@ public:
 
     //Constructor 
     Node(int value){
-        this->data = value;
-        this->next = NULL;    
+        data = value;
+        next = NULL;    
     }
     
     //Destructor
     ~Node(){
-        int value = this->data;
+        int value = data;
         if(next != NULL){
             delete next;
             next = NULL;
